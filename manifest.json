@@ -762,6 +762,32 @@
         "Built": "R 4.5.1; ; 2025-08-20 02:17:05 UTC; windows"
       }
     },
+    "shinyvalidate": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com",
+      "description": {
+        "Package": "shinyvalidate",
+        "Title": "Input Validation for Shiny Apps",
+        "Version": "0.1.3",
+        "Authors@R": "c(\n    person(\"Carson\", \"Sievert\", , \"carson@posit.co\", role = c(\"aut\", \"cre\"),\n           comment = c(ORCID = \"0000-0002-4958-2844\")),\n    person(\"Richard\", \"Iannone\", , \"rich@posit.co\", c(\"aut\"),\n           comment = c(ORCID = \"0000-0003-3925-190X\")),\n    person(\"Joe\", \"Cheng\", , \"joe@posit.co\", c(\"aut\")),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"))\n    )",
+        "Description": "Improves the user experience of Shiny apps by helping to\n    provide feedback when required inputs are missing, or input values\n    are not valid.",
+        "License": "MIT + file LICENSE",
+        "URL": "https://rstudio.github.io/shinyvalidate/,\nhttps://github.com/rstudio/shinyvalidate",
+        "BugReports": "https://github.com/rstudio/shinyvalidate/issues",
+        "Encoding": "UTF-8",
+        "Imports": "shiny (>= 1.6), htmltools (>= 0.5.1.1), rlang (>= 0.4.10),\nglue (>= 1.4.2)",
+        "RoxygenNote": "7.2.3",
+        "Suggests": "testthat, knitr, rmarkdown, covr",
+        "Config/testthat/edition": "3",
+        "NeedsCompilation": "no",
+        "Packaged": "2023-10-03 21:59:53 UTC; cpsievert",
+        "Author": "Carson Sievert [aut, cre] (<https://orcid.org/0000-0002-4958-2844>),\n  Richard Iannone [aut] (<https://orcid.org/0000-0003-3925-190X>),\n  Joe Cheng [aut],\n  Posit Software, PBC [cph, fnd]",
+        "Maintainer": "Carson Sievert <carson@posit.co>",
+        "Repository": "CRAN",
+        "Date/Publication": "2023-10-04 15:00:02 UTC",
+        "Built": "R 4.5.1; ; 2025-09-11 12:41:04 UTC; windows"
+      }
+    },
     "sourcetools": {
       "Source": "CRAN",
       "Repository": "https://cran.rstudio.com",
@@ -845,7 +871,7 @@
   },
   "files": {
     "app.R": {
-      "checksum": "7a6be542ae1e2b41d97a75044fa1e65c"
+      "checksum": "9b82f9d5a0e1e7f1148485bb9505a51d"
     }
   },
   "users": null
